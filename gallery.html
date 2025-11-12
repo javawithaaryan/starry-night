@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vincent van Gogh Art Gallery - Explore the complete collection of artworks">
+  <title>Van Gogh Gallery — Art Collection</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <div class="navbar-brand">
+        <img src="night.jpg" alt="Van Gogh" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2250%22 height=%2250%22%3E%3Crect fill=%22%23F9E79F%22 width=%2250%22 height=%2250%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%231E3A8A%22 font-size=%2220%22%3EVG%3C/text%3E%3C/svg%3E'">
+        <div>
+          <h1>Vincent van Gogh</h1>
+          <div style="font-size: 0.85rem; color: rgba(30, 58, 138, 0.8);">Art Gallery</div>
+        </div>
+      </div>
+      <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="letters.html">Letters</a></li>
+        <li><a href="legacy.html">Legacy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="gallery-hero">
+    <div class="gallery-hero-content">
+      <h1 class="gallery-title">Art Collection</h1>
+      <p class="gallery-subtitle">Discover the vibrant world of Vincent van Gogh through his masterpieces</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section gallery-section">
+    <!-- Filters -->
+    <div class="gallery-filters">
+      <div class="filter-group">
+        <label for="filter-view">View:</label>
+        <select id="filter-view" class="filter-select">
+          <option value="grid">Grid</option>
+          <option value="masonry">Masonry</option>
+          <option value="list">List</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-sort">Sort:</label>
+        <select id="filter-sort" class="filter-select">
+          <option value="name">Name</option>
+          <option value="random">Random</option>
+        </select>
+      </div>
+      <div class="filter-group search-group">
+        <input type="search" id="search-gallery" class="search-input" placeholder="Search images...">
+      </div>
+      <div class="filter-group">
+        <button id="toggle-fullscreen" class="btn btn-secondary">Fullscreen</button>
+      </div>
+    </div>
+
+    <!-- Gallery Stats -->
+    <div class="gallery-stats">
+      <span id="image-count">Loading images...</span>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div id="gallery-grid" class="gallery-grid gallery-grid-masonry">
+      <!-- Images will be loaded here dynamically -->
+      <div class="loader"></div>
+    </div>
+
+    <!-- Loading More Indicator -->
+    <div id="loading-more" class="loading-more" style="display: none;">
+      <div class="loader"></div>
+      <p>Loading more artworks...</p>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <div id="lightbox-body"></div>
+      <div class="lightbox-nav">
+        <button id="lightbox-prev" class="lightbox-nav-btn">‹</button>
+        <button id="lightbox-next" class="lightbox-nav-btn">›</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>Vincent van Gogh</h4>
+        <p>A Comprehensive Chronicle</p>
+        <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.8;">Exploring the life, art, and legacy of one of history's greatest artists.</p>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="https://www.vangoghmuseum.nl" target="_blank">Van Gogh Museum</a></li>
+          <li><a href="https://vangoghletters.org" target="_blank">Van Gogh Letters</a></li>
+          <li><a href="https://artsandculture.google.com" target="_blank">Google Arts & Culture</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="letters.html">Letters</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 — Vincent van Gogh: A Comprehensive Chronicle. Made for educational purposes.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery-dynamic.js"></script>
+</body>
+</html>
+
+

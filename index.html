@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vincent van Gogh — A Comprehensive Chronicle of His Life and Artworks">
+  <title>Vincent van Gogh — A Comprehensive Chronicle</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/story-showcase.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <div class="navbar-brand">
+        <img src="night.jpg" alt="Van Gogh" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2250%22 height=%2250%22%3E%3Crect fill=%22%23F9E79F%22 width=%2250%22 height=%2250%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%231E3A8A%22 font-size=%2220%22%3EVG%3C/text%3E%3C/svg%3E'">
+        <div>
+          <h1>Vincent van Gogh</h1>
+          <div style="font-size: 0.85rem; color: rgba(30, 58, 138, 0.8);">A Comprehensive Chronicle</div>
+        </div>
+      </div>
+      <ul class="navbar-nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="letters.html">Letters</a></li>
+        <li><a href="legacy.html">Legacy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2 class="twinkle">"I dream my painting and I paint my dream."</h2>
+      <p>Explore Vincent van Gogh's life, artworks, letters, and legacy — an immersive chronicle.</p>
+      <div class="hero-buttons">
+        <a href="gallery.html" class="btn btn-primary">Explore Gallery</a>
+        <a href="timeline.html" class="btn btn-secondary">View Timeline</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction Section -->
+  <section class="section" id="intro">
+    <div class="section-title">
+      <h2>Introduction</h2>
+    </div>
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem;">
+        Vincent van Gogh (1853–1890) emerged as one of history's most iconic and influential artists. 
+        Though his life was marked by poverty, mental illness, and tragedy, Van Gogh left behind a legacy 
+        of over <strong>2,100 artworks</strong> and hundreds of letters, reshaping the course of modern art.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div class="card">
+          <h3 style="color: var(--color-passion); margin-bottom: 1rem;">🎨 Artworks</h3>
+          <p>Explore over 2,100 paintings, drawings, and sketches</p>
+          <a href="gallery.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View Gallery</a>
+        </div>
+        <div class="card">
+          <h3 style="color: var(--color-night-sky); margin-bottom: 1rem;">💌 Letters</h3>
+          <p>Read personal letters to his brother Theo and others</p>
+          <a href="letters.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read Letters</a>
+        </div>
+        <div class="card">
+          <h3 style="color: var(--color-sunflower); margin-bottom: 1rem;">📅 Timeline</h3>
+          <p>Follow his life journey from 1853 to 1890</p>
+          <a href="timeline.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View Timeline</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Showcase Section -->
+  <section id="story-showcase" class="story-showcase">
+    <!-- Stories will be loaded dynamically here -->
+    <div style="text-align: center; padding: 4rem 2rem;">
+      <div class="loader"></div>
+      <p style="margin-top: 1rem; color: var(--color-text-light);">Loading Van Gogh's story...</p>
+    </div>
+  </section>
+
+  <!-- Quick Links Section -->
+  <section class="section" style="background: var(--color-canvas);">
+    <div class="section-title">
+      <h2>Explore His Journey</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+      <a href="gallery.html" class="card" style="text-decoration: none; text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🖼️</div>
+        <h3>Gallery</h3>
+        <p style="color: var(--color-text-light);">View all artworks</p>
+      </a>
+      <a href="timeline.html" class="card" style="text-decoration: none; text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">📜</div>
+        <h3>Timeline</h3>
+        <p style="color: var(--color-text-light);">Life events & milestones</p>
+      </a>
+      <a href="letters.html" class="card" style="text-decoration: none; text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">✉️</div>
+        <h3>Letters</h3>
+        <p style="color: var(--color-text-light);">Personal writings</p>
+      </a>
+      <a href="legacy.html" class="card" style="text-decoration: none; text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🌟</div>
+        <h3>Legacy</h3>
+        <p style="color: var(--color-text-light);">Impact & influence</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h4>Vincent van Gogh</h4>
+        <p>A Comprehensive Chronicle</p>
+        <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.8;">
+          Exploring the life, art, and legacy of one of history's greatest artists.
+        </p>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="https://www.vangoghmuseum.nl" target="_blank">Van Gogh Museum</a></li>
+          <li><a href="https://vangoghletters.org" target="_blank">Van Gogh Letters</a></li>
+          <li><a href="https://artsandculture.google.com" target="_blank">Google Arts & Culture</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="letters.html">Letters</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 — Vincent van Gogh: A Comprehensive Chronicle. Made for educational purposes.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/story-showcase.js"></script>
+</body>
+</html>
+

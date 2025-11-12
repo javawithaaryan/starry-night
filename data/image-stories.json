@@ -1,0 +1,118 @@
+{
+  "stories": [
+    {
+      "filename": "night.jpg",
+      "title": "The Starry Night",
+      "period": "Saint-Rémy (1889)",
+      "story": "Painted from memory during Van Gogh's stay at the Saint-Rémy asylum, this iconic masterpiece captures the swirling night sky over a sleeping village. The cypress tree reaches toward the heavens, symbolizing the connection between earth and cosmos. Van Gogh wrote to his brother Theo: 'I don't know what I see, but I feel the stars.'",
+      "excerpt": "I don't know what I see, but I feel the stars.",
+      "quote": "I don't know what I see, but I feel the stars.",
+      "significance": "One of the most recognized paintings in the world, representing Van Gogh's emotional and spiritual vision."
+    },
+    {
+      "filename": "van1.jpg",
+      "title": "Self-Portrait Study",
+      "period": "Paris (1886-1888)",
+      "story": "During his time in Paris, Van Gogh painted numerous self-portraits, experimenting with color and technique. These works show his evolution from dark, somber tones to vibrant, impressionist-inspired palettes.",
+      "excerpt": "I am seeking, I am striving, I am in it with all my heart.",
+      "quote": "I am seeking, I am striving, I am in it with all my heart.",
+      "significance": "Documents his artistic transformation and self-exploration."
+    },
+    {
+      "filename": "van2.jpg",
+      "title": "Portrait Study",
+      "period": "Arles (1888)",
+      "story": "In Arles, Van Gogh found the bright light and colors he had been seeking. His portraits from this period show his mastery of color and emotional expression, capturing the essence of his subjects.",
+      "excerpt": "I want to paint humanity, humanity and again humanity.",
+      "quote": "I want to paint humanity, humanity and again humanity.",
+      "significance": "Shows his dedication to portraying human emotion and character."
+    },
+    {
+      "filename": "van3.jpg",
+      "title": "Landscape Study",
+      "period": "Arles (1888-1889)",
+      "story": "The Provençal landscape inspired Van Gogh to create some of his most vibrant works. The intense sunlight and rich colors of southern France transformed his artistic vision.",
+      "excerpt": "The sun here is so strong that I feel I am in Japan.",
+      "quote": "The sun here is so strong that I feel I am in Japan.",
+      "significance": "Represents his artistic breakthrough in color and light."
+    },
+    {
+      "filename": "van4.jpg",
+      "title": "Still Life Study",
+      "period": "Various",
+      "story": "Van Gogh's still lifes demonstrate his evolving technique and use of color. From the dark, earthy tones of his Dutch period to the brilliant colors of his French works.",
+      "excerpt": "I dream of painting and then I paint my dream.",
+      "quote": "I dream of painting and then I paint my dream.",
+      "significance": "Shows the progression of his artistic style."
+    },
+    {
+      "filename": "van5.jpg",
+      "title": "Artistic Study",
+      "period": "Various",
+      "story": "Throughout his career, Van Gogh created countless studies and sketches, constantly refining his technique and exploring new ways to express his vision.",
+      "excerpt": "Great things are done by a series of small things brought together.",
+      "quote": "Great things are done by a series of small things brought together.",
+      "significance": "Represents his dedication to continuous learning and improvement."
+    },
+    {
+      "filename": "L1.jpg",
+      "title": "Letter Illustration 1",
+      "period": "Correspondence",
+      "story": "Van Gogh often included sketches in his letters to Theo, sharing his artistic ideas and progress. These illustrations provide intimate insights into his creative process.",
+      "excerpt": "I put my heart and my soul into my work, and have lost my mind in the process.",
+      "quote": "I put my heart and my soul into my work, and have lost my mind in the process.",
+      "significance": "Personal documentation of his artistic journey."
+    },
+    {
+      "filename": "L2.jpg",
+      "title": "Letter Illustration 2",
+      "period": "Correspondence",
+      "story": "The letters between Vincent and Theo contain hundreds of sketches and drawings, showing works in progress and ideas for future paintings.",
+      "excerpt": "What would life be if we had no courage to attempt anything?",
+      "quote": "What would life be if we had no courage to attempt anything?",
+      "significance": "Historical record of his creative process."
+    },
+    {
+      "filename": "wave2.jpg",
+      "title": "Wave Study",
+      "period": "Saint-Rémy (1889)",
+      "story": "During his stay at Saint-Rémy, Van Gogh was inspired by Japanese prints and created several wave studies, showing his fascination with movement and nature's power.",
+      "excerpt": "I have nature and art and poetry, and if that is not enough, what is?",
+      "quote": "I have nature and art and poetry, and if that is not enough, what is?",
+      "significance": "Shows influence of Japanese art on his work."
+    }
+  ],
+  "periods": {
+    "early": {
+      "name": "Early Period (1881-1885)",
+      "description": "Dark, somber works influenced by Dutch masters and peasant life",
+      "images": ["2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
+    },
+    "paris": {
+      "name": "Paris Period (1886-1888)",
+      "description": "Bright colors and impressionist techniques learned in Paris",
+      "images": ["7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "van1.jpg"]
+    },
+    "arles": {
+      "name": "Arles Period (1888-1889)",
+      "description": "Creative explosion in the bright light of Provence",
+      "images": ["12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "van2.jpg", "van3.jpg"]
+    },
+    "saint-remy": {
+      "name": "Saint-Rémy Period (1889-1890)",
+      "description": "Prolific period despite mental health struggles",
+      "images": ["17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "night.jpg", "wave2.jpg"]
+    },
+    "auvers": {
+      "name": "Auvers Period (1890)",
+      "description": "Final months of intense creativity",
+      "images": ["22.jpg", "23.jpg", "24.jpg", "25.jpg", "26.jpg"]
+    },
+    "letters": {
+      "name": "Letters & Sketches",
+      "description": "Personal correspondence with illustrations",
+      "images": ["L1.jpg", "L2.jpg", "L3.jpg", "L4.jpg", "L5.jpg", "L6.jpg", "L7.jpg", "L8.jpg", "L9.jpg", "L10.jpg", "L11.jpg", "L12.jpg", "L13.jpg", "L14.jpg", "L15.jpg"]
+    }
+  }
+}
+

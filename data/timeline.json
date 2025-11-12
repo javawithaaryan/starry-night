@@ -1,0 +1,149 @@
+[
+  {
+    "year": 1853,
+    "month": 3,
+    "day": 30,
+    "title": "Born in Zundert, Netherlands",
+    "type": "life-event",
+    "description": "Vincent Willem van Gogh was born to Theodorus van Gogh, a minister, and Anna Cornelia Carbentus.",
+    "artworks": [],
+    "location": "Zundert, Netherlands"
+  },
+  {
+    "year": 1869,
+    "month": 7,
+    "title": "Begins work at Goupil & Cie art dealers",
+    "type": "life-event",
+    "description": "Van Gogh starts working at his uncle's art dealership in The Hague, beginning his exposure to the art world.",
+    "artworks": [],
+    "location": "The Hague, Netherlands"
+  },
+  {
+    "year": 1880,
+    "title": "Decides to become an artist",
+    "type": "life-event",
+    "description": "After working as a teacher and missionary, Van Gogh decides to dedicate his life to art, supported by his brother Theo.",
+    "artworks": [],
+    "location": "Brussels, Belgium"
+  },
+  {
+    "year": 1885,
+    "month": 4,
+    "title": "Completes 'The Potato Eaters'",
+    "type": "artwork",
+    "description": "Van Gogh's first major work, depicting peasant life with dark, somber tones characteristic of his early Dutch period.",
+    "artworks": ["potato-eaters"],
+    "location": "Nuenen, Netherlands"
+  },
+  {
+    "year": 1886,
+    "month": 3,
+    "title": "Moves to Paris",
+    "type": "life-event",
+    "description": "Van Gogh moves to Paris to live with his brother Theo, where he encounters Impressionism and Post-Impressionism, dramatically changing his style.",
+    "artworks": [],
+    "location": "Paris, France"
+  },
+  {
+    "year": 1888,
+    "month": 2,
+    "title": "Moves to Arles",
+    "type": "life-event",
+    "description": "Seeking inspiration from the bright light of Provence, Van Gogh moves to Arles and rents the Yellow House.",
+    "artworks": [],
+    "location": "Arles, France"
+  },
+  {
+    "year": 1888,
+    "month": 8,
+    "title": "Paints 'Sunflowers'",
+    "type": "artwork",
+    "description": "Van Gogh creates his famous sunflower series, using vibrant yellows to express joy and gratitude.",
+    "artworks": ["sunflowers"],
+    "location": "Arles, France"
+  },
+  {
+    "year": 1888,
+    "month": 10,
+    "title": "Paints 'The Bedroom'",
+    "type": "artwork",
+    "description": "Van Gogh paints his bedroom in Arles, creating an intimate and peaceful scene using bold colors and simple forms.",
+    "artworks": ["bedroom"],
+    "location": "Arles, France"
+  },
+  {
+    "year": 1888,
+    "month": 12,
+    "title": "Ear incident",
+    "type": "life-event",
+    "description": "After a confrontation with Paul Gauguin, Van Gogh cuts off part of his left ear and is hospitalized.",
+    "artworks": [],
+    "location": "Arles, France"
+  },
+  {
+    "year": 1889,
+    "month": 5,
+    "title": "Voluntarily enters Saint-Rémy asylum",
+    "type": "life-event",
+    "description": "Van Gogh admits himself to the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence for treatment.",
+    "artworks": [],
+    "location": "Saint-Rémy-de-Provence, France"
+  },
+  {
+    "year": 1889,
+    "month": 6,
+    "title": "Paints 'The Starry Night'",
+    "type": "artwork",
+    "description": "One of Van Gogh's most famous works, painted from memory and imagination, featuring a swirling night sky over a village.",
+    "artworks": ["starry-night"],
+    "location": "Saint-Rémy-de-Provence, France"
+  },
+  {
+    "year": 1890,
+    "month": 2,
+    "title": "Paints 'Irises'",
+    "type": "artwork",
+    "description": "Van Gogh paints vibrant irises, celebrating the birth of his nephew Vincent Willem.",
+    "artworks": ["irises"],
+    "location": "Saint-Rémy-de-Provence, France"
+  },
+  {
+    "year": 1890,
+    "month": 5,
+    "title": "Moves to Auvers-sur-Oise",
+    "type": "life-event",
+    "description": "Van Gogh moves to Auvers-sur-Oise, near Paris, under the care of Dr. Gachet, hoping for recovery.",
+    "artworks": [],
+    "location": "Auvers-sur-Oise, France"
+  },
+  {
+    "year": 1890,
+    "month": 6,
+    "title": "Paints 'Portrait of Dr. Gachet'",
+    "type": "artwork",
+    "description": "Van Gogh paints two versions of his physician, Dr. Gachet, showing deep psychological insight.",
+    "artworks": ["gachet"],
+    "location": "Auvers-sur-Oise, France"
+  },
+  {
+    "year": 1890,
+    "month": 7,
+    "title": "Paints 'Wheatfield with Crows'",
+    "type": "artwork",
+    "description": "One of Van Gogh's final paintings, often interpreted as expressing his emotional turmoil and sense of foreboding.",
+    "artworks": ["crows-wheatfield"],
+    "location": "Auvers-sur-Oise, France"
+  },
+  {
+    "year": 1890,
+    "month": 7,
+    "day": 29,
+    "title": "Dies in Auvers-sur-Oise",
+    "type": "life-event",
+    "description": "Van Gogh dies from a self-inflicted gunshot wound at the age of 37. His brother Theo dies six months later.",
+    "artworks": [],
+    "location": "Auvers-sur-Oise, France"
+  }
+]
+
+

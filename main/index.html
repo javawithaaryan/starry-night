@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Vincent van Gogh — A Comprehensive Chronicle of His Life and Artworks. Gallery, timeline, letters, and resources." />
+  <title>Vincent van Gogh — A Comprehensive Chronicle</title>
+  <!-- Tailwind CDN for quick styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small additional styles */
+    .hero-bg { background-image: url('assets/images/starry-night.jpg'); background-size: cover; background-position: center; }
+    .card-shadow { box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+    /* Simple light animation for Starry Night header */
+    @keyframes twinkle { 0% { transform: translateY(0) } 50% { transform: translateY(-2px) } 100% { transform: translateY(0) } }
+    .twinkle { animation: twinkle 6s ease-in-out infinite; }
+  </style>
+</head>
+<body class="bg-[#fffdf8] text-gray-900 leading-relaxed">
+  <!-- NAVBAR -->
+  <header class="bg-yellow-50 border-b sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <img src="assets/images/van-gogh-small.jpg" alt="Van Gogh portrait" class="w-12 h-12 rounded-sm object-cover" />
+        <div>
+          <h1 class="text-xl md:text-2xl font-semibold text-yellow-800">Vincent van Gogh</h1>
+          <div class="text-xs text-gray-600">A Comprehensive Chronicle of His Life and Artworks</div>
+        </div>
+      </div>
+      <nav class="space-x-4 text-sm">
+        <a href="#intro" class="hover:text-yellow-700">Intro</a>
+        <a href="#gallery" class="hover:text-yellow-700">Gallery</a>
+        <a href="#timeline" class="hover:text-yellow-700">Timeline</a>
+        <a href="#letters" class="hover:text-yellow-700">Letters</a>
+        <a href="#resources" class="hover:text-yellow-700">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-bg h-[60vh] relative">
+    <div class="absolute inset-0 bg-black/35 flex items-center">
+      <div class="max-w-5xl mx-auto px-6 text-white text-center">
+        <h2 class="text-3xl md:text-5xl font-extrabold mb-4 twinkle">"I dream my painting and I paint my dream."</h2>
+        <p class="md:text-xl">Explore Vincent van Gogh’s life, artworks, letters, and legacy — an immersive chronicle.</p>
+        <div class="mt-6 flex justify-center gap-3">
+          <a href="#gallery" class="bg-yellow-200 px-4 py-2 rounded font-medium text-yellow-900">Explore Gallery</a>
+          <a href="#timeline" class="bg-white/30 px-4 py-2 rounded border border-white text-white">View Timeline</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-6xl mx-auto px-6 py-10 space-y-12">
+    <!-- INTRO -->
+    <section id="intro" class="prose max-w-none">
+      <h2>Introduction</h2>
+      <p>Vincent van Gogh (1853–1890) emerged as one of history’s most iconic and influential artists. Though his life was marked by poverty, mental illness, and tragedy, Van Gogh left behind a legacy of over <strong>2,100 artworks</strong> and hundreds of letters, reshaping the course of modern art.</p>
+    </section>
+
+    <!-- EARLY LIFE -->
+    <section id="early-life" class="grid md:grid-cols-3 gap-6 items-start">
+      <div class="md:col-span-2">
+        <h3 class="text-2xl font-semibold">1. Early Life and Beginnings</h3>
+        <p>Born in <strong>Zundert, Netherlands</strong>, Van Gogh was raised in a religious family. He worked as an art dealer, teacher, and missionary before seriously turning to art in his late twenties. Early influences included realism, Dutch painters, and rural themes.</p>
+        <ul class="list-disc pl-5 mt-3">
+          <li><strong>The Potato Eaters (1885)</strong> — depicts peasant life's hardship.</li>
+          <li><strong>Peasant Woman Digging Up Potatoes (1885)</strong></li>
+          <li><strong>Still Life with Bible (1885)</strong></li>
+        </ul>
+      </div>
+      <figure class="card-shadow p-4 bg-white rounded">
+        <img src="assets/images/potato-eaters.jpg" alt="The Potato Eaters" class="w-full h-48 object-cover rounded-sm" />
+        <figcaption class="text-xs text-gray-600 mt-2">The Potato Eaters (1885) — oil on canvas</figcaption>
+      </figure>
+    </section>
+
+    <!-- PARIS -->
+    <section id="paris" class="grid md:grid-cols-3 gap-6 items-start">
+      <div class="md:col-span-2">
+        <h3 class="text-2xl font-semibold">2. The Paris Revolution (1886–1888)</h3>
+        <p>In Paris Van Gogh encountered Impressionism and avant-garde painters. He adopted brighter colors, looser brushwork, and began painting still lifes, portraits, and city scenes.</p>
+        <ul class="list-disc pl-5 mt-3">
+          <li>Self-Portrait as a Painter (1888)</li>
+          <li>Garden with Courting Couples: Square Saint-Pierre (1887)</li>
+          <li>Bouquet of Flowers in a Vase (1887)</li>
+          <li>Vase with Hollyhocks (1886)</li>
+        </ul>
+      </div>
+      <figure class="card-shadow p-4 bg-white rounded">
+        <img src="assets/images/paris-works.jpg" alt="Paris works" class="w-full h-48 object-cover rounded-sm" />
+        <figcaption class="text-xs text-gray-600 mt-2">Paris period — brighter palette and loose brushwork</figcaption>
+      </figure>
+    </section>
+
+    <!-- ARLES -->
+    <section id="arles" class="grid md:grid-cols-3 gap-6 items-start">
+      <div class="md:col-span-2">
+        <h3 class="text-2xl font-semibold">3. Breakthrough in Arles (1888–1889)</h3>
+        <p>Seeking tranquility, Van Gogh moved to Arles. His art flourished; he developed a unique color palette and produced many celebrated works.</p>
+        <ul class="list-disc pl-5 mt-3">
+          <li><strong>Sunflowers (1889)</strong></li>
+          <li><strong>The Bedroom (1888)</strong></li>
+          <li><strong>The Yellow House (1888)</strong></li>
+          <li>The Langlois Bridge (1888)</li>
+          <li>The Sower (1888)</li>
+        </ul>
+      </div>
+      <figure class="card-shadow p-4 bg-white rounded">
+        <img src="assets/images/sunflowers.jpg" alt="Sunflowers" class="w-full h-48 object-cover rounded-sm" />
+        <figcaption class="text-xs text-gray-600 mt-2">Sunflowers (1889) — Oil on canvas</figcaption>
+      </figure>
+    </section>
+
+    <!-- SAINT-REMY -->
+    <section id="saint-remy" class="grid md:grid-cols-3 gap-6 items-start">
+      <div class="md:col-span-2">
+        <h3 class="text-2xl font-semibold">4. Saint-Rémy Period (1889–1890)</h3>
+        <p>Van Gogh voluntarily entered a mental hospital in Saint-Rémy. Despite struggles, this was a prolific period filled with visionary landscapes.</p>
+        <ul class="list-disc pl-5 mt-3">
+          <li><strong>The Starry Night (1889)</strong></li>
+          <li>Wheatfield with a Reaper (1889)</li>
+          <li>Irises (1890)</li>
+          <li>Olive Trees (1889)</li>
+        </ul>
+      </div>
+      <figure class="card-shadow p-4 bg-white rounded">
+        <img src="assets/images/starry-night.jpg" alt="The Starry Night" class="w-full h-48 object-cover rounded-sm" />
+        <figcaption class="text-xs text-gray-600 mt-2">The Starry Night (1889)</figcaption>
+      </figure>
+    </section>
+
+    <!-- AUVERS -->
+    <section id="auvers" class="grid md:grid-cols-3 gap-6 items-start">
+      <div class="md:col-span-2">
+        <h3 class="text-2xl font-semibold">5. Final Months in Auvers-sur-Oise (1890)</h3>
+        <p>Van Gogh painted intensely in his last months. His work from Auvers shows emotional depth and technical mastery.</p>
+        <ul class="list-disc pl-5 mt-3">
+          <li>Wheatfield under Thunderclouds (1890)</li>
+          <li>Portrait of Dr. Gachet (1890)</li>
+          <li>Crows over Wheatfield (1890)</li>
+          <li>Church at Auvers (1890)</li>
+        </ul>
+      </div>
+      <figure class="card-shadow p-4 bg-white rounded">
+        <img src="assets/images/auvers.jpg" alt="Auvers painting" class="w-full h-48 object-cover rounded-sm" />
+        <figcaption class="text-xs text-gray-600 mt-2">Auvers works (1890)</figcaption>
+      </figure>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h3 class="text-2xl font-semibold">Gallery — Explore Artworks</h3>
+        <div class="flex gap-2 items-center">
+          <select id="filter-period" class="border rounded px-3 py-1 text-sm">
+            <option value="all">All Periods</option>
+            <option value="early">Early (Netherlands)</option>
+            <option value="paris">Paris</option>
+            <option value="arles">Arles</option>
+            <option value="saint-remy">Saint-Rémy</option>
+            <option value="auvers">Auvers</option>
+          </select>
+          <input id="search-art" type="search" placeholder="Search by title or year" class="border rounded px-3 py-1 text-sm" />
+        </div>
+      </div>
+
+      <div id="gallery-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- JS will render artwork cards here -->
+      </div>
+
+      <!-- Lightbox modal -->
+      <div id="lightbox" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
+        <div class="max-w-4xl w-full mx-4 bg-white rounded p-4">
+          <button id="lb-close" class="float-right text-gray-600">Close</button>
+          <div id="lb-content" class="mt-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section id="timeline" class="space-y-4">
+      <h3 class="text-2xl font-semibold">Interactive Timeline</h3>
+      <p>Scroll through the major events and artworks of Van Gogh's life.</p>
+      <div id="timeline-scroll" class="overflow-x-auto whitespace-nowrap py-4">
+        <!-- JS will render timeline items -->
+      </div>
+    </section>
+
+    <!-- LETTERS -->
+    <section id="letters" class="grid md:grid-cols-3 gap-6">
+      <div class="md:col-span-2">
+        <h3 class="text-2xl font-semibold">Letters & Writings</h3>
+        <p>Selected excerpts from Van Gogh's letters (to Theo and others). Click to read full text and view transcription.</p>
+        <div id="letters-list" class="mt-4 space-y-3">
+          <!-- JS will render letters here -->
+        </div>
+      </div>
+      <aside class="card-shadow p-4 bg-white rounded">
+        <h4 class="font-semibold">Listening & Transcriptions</h4>
+        <p class="text-sm">Optional audio narration and full transcriptions make the letters accessible. Use the audio play buttons where available.</p>
+      </aside>
+    </section>
+
+    <!-- RESOURCES -->
+    <section id="resources" class="prose">
+      <h3>Resources & Credits</h3>
+      <ul>
+        <li>Primary resource: The Van Gogh Museum online archive</li>
+        <li>Museum collections: Van Gogh Museum, Musée d'Orsay, Rijksmuseum, MoMA</li>
+        <li>Historical commentary and letters: public domain translations where available</li>
+      </ul>
+      <p class="text-sm text-gray-600">Note: Image files used here should be rights-cleared or used with proper attribution. For a deploy-ready version, replace placeholders in <code>assets/images/</code> with high-resolution files and update captions with correct museum credits.</p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-yellow-50 border-t mt-12">
+    <div class="max-w-6xl mx-auto px-6 py-6 text-sm text-gray-700 flex flex-col md:flex-row justify-between items-center">
+      <div>© 2025 — Vincent van Gogh: A Comprehensive Chronicle. Made for educational purposes.</div>
+      <div class="mt-3 md:mt-0">Built with ❤️ — Replace images with rights-cleared museum images before publishing.</div>
+    </div>
+  </footer>
+
+  <!-- DATA & SCRIPTS -->
+  <script>
+    // ---------- Artwork and letters data (editable JSON) ----------
+    const ARTWORKS = [
+      {
+        id: 'potato-eaters', title: 'The Potato Eaters', year: 1885, period: 'early', image: 'assets/images/potato-eaters.jpg', medium: 'Oil on canvas', description: "Depicts peasant hardship and early realism in Van Gogh's work.", museum: 'Van Gogh Museum / Private collections'
+      },
+      {
+        id: 'sunflowers', title: 'Sunflowers', year: 1889, period: 'arles', image: 'assets/images/sunflowers.jpg', medium: 'Oil on canvas', description: 'Vivid still life symbolizing gratitude and friendship.', museum: 'Van Gogh Museum'
+      },
+      {
+        id: 'starry-night', title: 'The Starry Night', year: 1889, period: 'saint-remy', image: 'assets/images/starry-night.jpg', medium: 'Oil on canvas', description: 'Turbulent, emotional sky painted while Van Gogh was at Saint-Rémy.', museum: 'Museum of Modern Art (MoMA)'
+      },
+      {
+        id: 'bedroom', title: 'The Bedroom', year: 1888, period: 'arles', image: 'assets/images/bedroom.jpg', medium: 'Oil on canvas', description: "Personal depiction of his room in Arles.", museum: 'Van Gogh Museum'
+      },
+      {
+        id: 'gachet', title: 'Portrait of Dr. Gachet', year: 1890, period: 'auvers', image: 'assets/images/gachet.jpg', medium: 'Oil on canvas', description: 'Psychological portrait of Dr. Gachet.', museum: 'Private collection / Musée d'Orsay (disputed)'
+      }
+      // Add more artwork objects here following the same format
+    ];
+
+    const LETTERS = [
+      { id: 'letter-1', title: 'Letter to Theo (1889)', excerpt: 'I want to paint the very atmosphere, the emotion...', full: 'Full transcription of the selected letter goes here. Replace this placeholder with the actual transcription.' },
+      { id: 'letter-2', title: 'Letter to Theo (1888)', excerpt: 'There is a great need for color, and light...', full: 'Full transcription of the selected letter goes here.' }
+    ];
+
+    const TIMELINE = [
+      { year: 1853, title: 'Born in Zundert, Netherlands' },
+      { year: 1885, title: 'Completes The Potato Eaters' },
+      { year: 1886, title: 'Moves to Paris — meets Impressionists' },
+      { year: 1888, title: 'Moves to Arles — The Yellow House period' },
+      { year: 1889, title: 'Voluntarily admitted to Saint-Rémy' },
+      { year: 1890, title: 'Moves to Auvers-sur-Oise — dies July 1890' }
+    ];
+
+    // ---------- Utility & rendering code ----------
+    function createArtworkCard(a) {
+      const div = document.createElement('div');
+      div.className = 'bg-white p-3 rounded card-shadow';
+      div.innerHTML = `
+        <img src="${a.image}" alt="${a.title}" class="w-full h-48 object-cover rounded-sm" />
+        <h4 class="mt-3 font-semibold">${a.title} <span class="text-sm text-gray-500">(${a.year})</span></h4>
+        <div class="text-sm text-gray-600 mt-1">${a.medium}</div>
+        <p class="text-sm mt-2 text-gray-700">${a.description}</p>
+        <div class="mt-3 flex justify-between items-center">
+          <button data-id="${a.id}" class="open-art text-sm px-3 py-1 border rounded">View</button>
+          <div class="text-xs text-gray-500">${a.museum}</div>
+        </div>
+      `;
+      return div;
+    }
+
+    function renderGallery(list) {
+      const grid = document.getElementById('gallery-grid');
+      grid.innerHTML = '';
+      list.forEach(a => grid.appendChild(createArtworkCard(a)));
+      // attach listeners
+      document.querySelectorAll('.open-art').forEach(btn => {
+        btn.onclick = () => openLightbox(btn.dataset.id);
+      });
+    }
+
+    function openLightbox(id) {
+      const art = ARTWORKS.find(x => x.id === id);
+      const lb = document.getElementById('lightbox');
+      const content = document.getElementById('lb-content');
+      content.innerHTML = `
+        <div class="grid md:grid-cols-2 gap-4 items-start">
+          <img src="${art.image}" alt="${art.title}" class="w-full h-80 object-cover rounded" />
+          <div>
+            <h3 class="text-xl font-semibold">${art.title} <span class="text-sm text-gray-500">(${art.year})</span></h3>
+            <p class="text-sm text-gray-700 mt-2">${art.description}</p>
+            <p class="text-xs text-gray-500 mt-3">Medium: ${art.medium}</p>
+            <p class="text-xs text-gray-500">Museum: ${art.museum}</p>
+            <div class="mt-4">
+              <button id="download-art" class="text-sm px-3 py-1 border rounded">Download Image</button>
+            </div>
+          </div>
+        </div>
+      `;
+      lb.classList.remove('hidden');
+      document.getElementById('lb-close').onclick = () => lb.classList.add('hidden');
+      document.getElementById('download-art').onclick = () => {
+        // simple client-side image download
+        const link = document.createElement('a');
+        link.href = art.image; link.download = art.id + '.jpg';
+        document.body.appendChild(link); link.click(); link.remove();
+      };
+    }
+
+    function renderTimeline() {
+      const container = document.getElementById('timeline-scroll');
+      TIMELINE.forEach(item => {
+        const el = document.createElement('div');
+        el.className = 'inline-block w-64 p-4 mr-4 bg-white rounded card-shadow align-top';
+        el.innerHTML = `<div class="text-sm text-gray-500">${item.year}</div><div class="font-semibold mt-1">${item.title}</div>`;
+        container.appendChild(el);
+      });
+    }
+
+    function renderLetters() {
+      const list = document.getElementById('letters-list');
+      LETTERS.forEach(l => {
+        const el = document.createElement('div');
+        el.className = 'p-3 bg-white rounded card-shadow';
+        el.innerHTML = `<h4 class="font-semibold">${l.title} <span class="text-xs text-gray-500">— excerpt</span></h4><p class="text-sm text-gray-700 mt-2">${l.excerpt}</p><button data-id="${l.id}" class="open-letter mt-3 text-sm px-3 py-1 border rounded">Read full</button>`;
+        list.appendChild(el);
+      });
+      document.querySelectorAll('.open-letter').forEach(btn => btn.onclick = () => openLetter(btn.dataset.id));
+    }
+
+    function openLetter(id) {
+      const letter = LETTERS.find(x => x.id === id);
+      const lb = document.getElementById('lightbox');
+      const content = document.getElementById('lb-content');
+      content.innerHTML = `<div><h3 class="text-xl font-semibold">${letter.title}</h3><p class="mt-3 text-sm text-gray-800">${letter.full}</p></div>`;
+      lb.classList.remove('hidden');
+      document.getElementById('lb-close').onclick = () => lb.classList.add('hidden');
+    }
+
+    // ---------- Filters & search ----------
+    document.addEventListener('DOMContentLoaded', () => {
+      renderGallery(ARTWORKS);
+      renderTimeline();
+      renderLetters();
+
+      const filter = document.getElementById('filter-period');
+      const search = document.getElementById('search-art');
+
+      function applyFilters() {
+        const p = filter.value; const q = search.value.trim().toLowerCase();
+        let list = ARTWORKS.slice();
+        if (p !== 'all') list = list.filter(a => a.period === p);
+        if (q) list = list.filter(a => (a.title + ' ' + a.year).toLowerCase().includes(q));
+        renderGallery(list);
+      }
+
+      filter.onchange = applyFilters;
+      search.oninput = applyFilters;
+
+      // Accessibility: close lightbox on ESC
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') document.getElementById('lightbox').classList.add('hidden'); });
+    });
+  </script>
+
+  <!-- END OF FILE -->
+</body>
+</html>

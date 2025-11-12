@@ -1,0 +1,81 @@
+[
+  {
+    "id": "letter-1",
+    "title": "Letter to Theo (1888)",
+    "year": 1888,
+    "recipient": "Theo",
+    "theme": "art",
+    "excerpt": "I dream my painting and I paint my dream.",
+    "fullText": "I dream my painting and I paint my dream. There is a great need for color, and light. I want to paint the very atmosphere, the emotion that surrounds a subject. The color should be vibrant, alive, expressing the inner life of the artist.",
+    "location": "Arles",
+    "audio": false
+  },
+  {
+    "id": "letter-2",
+    "title": "Letter to Theo (1889)",
+    "year": 1889,
+    "recipient": "Theo",
+    "theme": "hope",
+    "excerpt": "I want to paint the very atmosphere, the emotion...",
+    "fullText": "I want to paint the very atmosphere, the emotion that surrounds a subject. Despite the struggles, I find peace in painting. The act of creation brings me closer to understanding life itself. Each brushstroke is a step toward something greater.",
+    "location": "Saint-Rémy",
+    "audio": false
+  },
+  {
+    "id": "letter-3",
+    "title": "Letter to Theo (1888)",
+    "year": 1888,
+    "recipient": "Theo",
+    "theme": "nature",
+    "excerpt": "The sunflowers are blooming, and I feel the need to capture their radiance...",
+    "fullText": "The sunflowers are blooming, and I feel the need to capture their radiance. Nature speaks to me in colors I never knew existed. The yellow of the sunflowers, the blue of the sky—these are the colors of life itself. I paint not what I see, but what I feel.",
+    "location": "Arles",
+    "audio": false
+  },
+  {
+    "id": "letter-4",
+    "title": "Letter to Theo (1890)",
+    "year": 1890,
+    "recipient": "Theo",
+    "theme": "life",
+    "excerpt": "I am working with all my strength, and I feel that the paintings are getting better...",
+    "fullText": "I am working with all my strength, and I feel that the paintings are getting better. There is so much to express, so much beauty to capture. The wheat fields, the sky, the trees—everything speaks to me. I must paint while I can.",
+    "location": "Auvers-sur-Oise",
+    "audio": false
+  },
+  {
+    "id": "letter-5",
+    "title": "Letter to Theo (1889)",
+    "year": 1889,
+    "recipient": "Theo",
+    "theme": "art",
+    "excerpt": "The night sky fascinates me. I see stars that swirl and dance...",
+    "fullText": "The night sky fascinates me. I see stars that swirl and dance, creating patterns that only the soul can understand. I painted 'The Starry Night' to capture this feeling—the connection between the earth and the cosmos, between the physical and the spiritual.",
+    "location": "Saint-Rémy",
+    "audio": false
+  },
+  {
+    "id": "letter-6",
+    "title": "Letter to Theo (1888)",
+    "year": 1888,
+    "recipient": "Theo",
+    "theme": "faith",
+    "excerpt": "I find God in the colors of nature, in the brushstrokes that bring life to canvas...",
+    "fullText": "I find God in the colors of nature, in the brushstrokes that bring life to canvas. Art is my prayer, my connection to something greater than myself. Each painting is an offering, a testament to the beauty that exists in this world.",
+    "location": "Arles",
+    "audio": false
+  },
+  {
+    "id": "letter-7",
+    "title": "Letter to Theo (1890)",
+    "year": 1890,
+    "recipient": "Theo",
+    "theme": "health",
+    "excerpt": "I feel stronger when I paint. The act of creation heals me...",
+    "fullText": "I feel stronger when I paint. The act of creation heals me, gives me purpose. Even in my darkest moments, the canvas calls to me. I must continue, for art is my life, my reason for being.",
+    "location": "Auvers-sur-Oise",
+    "audio": false
+  }
+]
+
+
